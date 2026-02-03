@@ -2,102 +2,138 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Vinayaka Gas | Industrial & Special Gas Supplier</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vinayaka Gas | Industrial & Special Gases</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Vinayaka Gas – Manufacturer and supplier of industrial, medical and special gases based in Chittoor.">
 
 <style>
 body{
     margin:0;
     font-family: Arial, Helvetica, sans-serif;
-    color:#222;
-    line-height:1.5;
     background:#ffffff;
+    color:#1f2933;
+    line-height:1.5;
 }
 
+/* ===== HEADER ===== */
 header{
-    background:#0f2a3a;
-    color:#fff;
-    padding:30px 20px;
+    background:#0f2a3a; /* Dark Blue */
+    color:#ffffff;
     text-align:center;
+    padding:22px 15px;
 }
 
-header img{
-    width:140px;
-    margin-bottom:10px;
+header h1{
+    margin:6px 0 4px;
+    font-size:30px;
+    letter-spacing:1px;
+}
+
+header p{
+    margin:3px 0;
+    font-size:15px;
+    opacity:0.9;
+}
+
+/* ===== INDUSTRIAL CYLINDER LOGO (NOT LPG) ===== */
+.logo svg{
+    width:80px;
+    height:120px;
+    margin-bottom:6px;
+}
+
+/* ===== LAYOUT ===== */
+.container{
+    max-width:1100px;
+    margin:auto;
+    padding:16px;
 }
 
 section{
-    padding:30px 20px;
-    max-width:1100px;
-    margin:auto;
+    margin-bottom:16px;
 }
 
 h2{
     color:#0f2a3a;
-    margin-bottom:10px;
+    font-size:22px;
+    margin-bottom:6px;
+}
+
+h3{
+    color:#374151; /* Steel Grey */
+    margin-bottom:4px;
 }
 
 ul{
     padding-left:18px;
+    margin:6px 0;
 }
 
-.services-grid{
+li{
+    margin-bottom:4px;
+}
+
+/* ===== GRID ===== */
+.grid{
     display:grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
-    gap:20px;
+    grid-template-columns: repeat(auto-fit, minmax(230px,1fr));
+    gap:14px;
 }
 
+/* ===== BOX ===== */
 .box{
-    border:1px solid #ddd;
-    padding:15px;
+    border:1px solid #d1d5db;
+    padding:14px;
     border-radius:6px;
 }
 
-.contact-box{
-    background:#f5f5f5;
-    padding:20px;
+/* ===== CONTACT ===== */
+.contact{
+    background:#f3f4f6;
+    padding:14px;
     border-radius:6px;
 }
 
 input, textarea{
     width:100%;
-    padding:10px;
-    margin-top:8px;
-    margin-bottom:12px;
-    border:1px solid #ccc;
+    padding:9px;
+    margin-top:6px;
+    margin-bottom:8px;
+    border:1px solid #cbd5e1;
     border-radius:4px;
 }
 
 button{
-    background:#0f2a3a;
-    color:#fff;
+    background:#374151;
+    color:#ffffff;
     border:none;
-    padding:10px 18px;
-    cursor:pointer;
+    padding:10px 16px;
     border-radius:4px;
+    cursor:pointer;
 }
 
 button:hover{
-    background:#163d55;
+    background:#1f2933;
 }
 
+/* ===== FOOTER ===== */
 footer{
     background:#0f2a3a;
-    color:#fff;
+    color:#ffffff;
     text-align:center;
-    padding:15px;
+    padding:12px;
     font-size:14px;
 }
 
-/* WhatsApp Button */
+/* ===== WHATSAPP ===== */
 .whatsapp{
     position:fixed;
-    bottom:20px;
-    right:20px;
+    bottom:18px;
+    right:18px;
     background:#25d366;
-    color:#fff;
+    color:#ffffff;
     padding:12px 18px;
-    border-radius:50px;
+    border-radius:40px;
     text-decoration:none;
     font-weight:bold;
 }
@@ -107,124 +143,155 @@ footer{
 <body>
 
 <header>
-    <img src="logo.png" alt="Vinayaka Gas Logo">
-    <h1>Vinayaka Gas</h1>
+    <div class="logo">
+        <!-- INDUSTRIAL STRAIGHT CYLINDER (NOT LPG) -->
+        <svg viewBox="0 0 120 160">
+            <rect x="44" y="30" width="32" height="105" rx="6" fill="#9ca3af"/>
+            <rect x="48" y="14" width="24" height="16" rx="2" fill="#374151"/>
+            <circle cx="60" cy="78" r="15" fill="#0f2a3a"/>
+            <text x="60" y="84" text-anchor="middle" fill="#ffffff" font-size="14" font-weight="bold">VG</text>
+        </svg>
+    </div>
+
+    <h1>VINAYAKA <span style="color:#9ca3af;">GAS</span></h1>
     <p>Reliable Industrial, Medical & Special Gas Solutions</p>
-    <p>High-quality pure gases, special gases and refrigeration gases for industrial, medical and commercial applications.</p>
+    <p>Pure gases • Special gases • Refrigeration gases</p>
 </header>
 
+<div class="container">
+
 <section>
-    <h2>Why Choose Vinayaka Gas</h2>
-    <ul>
-        <li>Certified & high-purity gases</li>
-        <li>Safe cylinder handling</li>
-        <li>Timely delivery</li>
-        <li>Competitive pricing</li>
-    </ul>
+<h2>Why Choose Vinayaka Gas</h2>
+<ul>
+    <li>Certified & high-purity gases</li>
+    <li>Safe industrial cylinder handling</li>
+    <li>Timely and reliable delivery</li>
+    <li>Competitive pricing</li>
+</ul>
 </section>
 
 <section>
-    <h2>About Us</h2>
-    <p>
-        Vinayaka Gas is a trusted manufacturer and supplier of industrial, medical and special gases,
-        catering to laboratories, hospitals, fabrication units and industrial customers.
-        We are committed to delivering consistent quality, strict safety standards and reliable service.
-    </p>
-    <p>
-        Our focus is on customer satisfaction, purity assurance and timely supply,
-        ensuring dependable gas solutions for critical and demanding applications.
-    </p>
+<h2>About Us</h2>
+<p>
+Vinayaka Gas is a trusted manufacturer and supplier of industrial, medical and special gases,
+serving laboratories, hospitals, fabrication units and industrial customers.
+Based in Chittoor, we focus on quality consistency, safety compliance and dependable supply.
+</p>
+<p>
+Our operations follow strict safety practices and quality control standards,
+ensuring reliable gas solutions for critical and precision-based applications.
+</p>
+</section>
+
+<section class="grid">
+<div class="box">
+<h2>Our Mission</h2>
+<p>
+To deliver high-quality industrial and specialty gases with uncompromised safety,
+reliability and customer satisfaction.
+</p>
+</div>
+
+<div class="box">
+<h2>Our Vision</h2>
+<p>
+To become a preferred regional gas supplier known for trust,
+technical expertise and long-term partnerships.
+</p>
+</div>
 </section>
 
 <section>
-    <h2>Our Products & Services</h2>
+<h2>Products & Services</h2>
 
-    <div class="services-grid">
+<div class="grid">
 
-        <div class="box">
-            <h3>Pure Gases</h3>
-            <ul>
-                <li>Argon</li>
-                <li>Nitrogen</li>
-                <li>Oxygen</li>
-                <li>Carbon Dioxide</li>
-                <li>Hydrogen</li>
-                <li>Helium</li>
-                <li>Dissolved Acetylene</li>
-            </ul>
-        </div>
+<div class="box">
+<h3>Pure Gases</h3>
+<ul>
+<li>Argon</li>
+<li>Nitrogen</li>
+<li>Oxygen</li>
+<li>Carbon Dioxide</li>
+<li>Hydrogen</li>
+<li>Helium</li>
+<li>Dissolved Acetylene</li>
+</ul>
+</div>
 
-        <div class="box">
-            <h3>Pure Special Gases</h3>
-            <ul>
-                <li>Sulfur Hexafluoride (SF₆)</li>
-                <li>Anhydrous Hydrogen Chloride</li>
-                <li>Carbon Monoxide</li>
-                <li>Nitric Oxide</li>
-                <li>Sulphur Dioxide</li>
-                <li>Hydrogen Sulphide</li>
-            </ul>
-        </div>
+<div class="box">
+<h3>Pure Special Gases</h3>
+<ul>
+<li>Sulfur Hexafluoride (SF₆)</li>
+<li>Anhydrous Hydrogen Chloride</li>
+<li>Carbon Monoxide</li>
+<li>Nitric Oxide</li>
+<li>Sulphur Dioxide</li>
+<li>Hydrogen Sulphide</li>
+</ul>
+</div>
 
-        <div class="box">
-            <h3>Refrigeration Gases</h3>
-            <ul>
-                <li>Industrial refrigeration gases</li>
-                <li>Commercial & HVAC gases</li>
-            </ul>
-        </div>
+<div class="box">
+<h3>Refrigeration Gases</h3>
+<ul>
+<li>Industrial refrigeration gases</li>
+<li>Commercial & HVAC gases</li>
+</ul>
+</div>
 
-        <div class="box">
-            <h3>Shielding Gases</h3>
-            <ul>
-                <li>Argon</li>
-                <li>Argon–Carbon Dioxide mixtures</li>
-                <li>Welding & fabrication shielding gases</li>
-            </ul>
-        </div>
+<div class="box">
+<h3>Shielding Gases</h3>
+<ul>
+<li>Argon</li>
+<li>Argon–Carbon Dioxide mixtures</li>
+<li>Welding & fabrication gases</li>
+</ul>
+</div>
 
-    </div>
+</div>
 </section>
 
 <section>
-    <h2>Applications</h2>
-    <ul>
-        <li>Welding & fabrication</li>
-        <li>Medical & healthcare</li>
-        <li>Laboratories & research</li>
-        <li>Refrigeration & air-conditioning</li>
-        <li>Industrial manufacturing</li>
-        <li>Power & electrical applications</li>
-    </ul>
+<h2>Applications</h2>
+<ul>
+<li>Welding & fabrication</li>
+<li>Medical & healthcare</li>
+<li>Laboratories & research</li>
+<li>Refrigeration & air-conditioning</li>
+<li>Industrial manufacturing</li>
+<li>Power & electrical applications</li>
+</ul>
 </section>
 
 <section>
-    <h2>Contact & Enquiry</h2>
+<h2>Contact & Enquiry</h2>
 
-    <div class="contact-box">
-        <p><strong>Address:</strong><br>
-        Iruvaram By-pass Road, No.250, Iruvaram,<br>
-        Iruvaram (P), Chittoor (M), A.P. – 517001
-        </p>
+<div class="contact">
+<p><strong>Address:</strong><br>
+Iruvaram By-pass Road, No.250, Iruvaram,<br>
+Iruvaram (P), Chittoor (M), A.P. – 517001
+</p>
 
-        <p><strong>Phone:</strong> +91 99664 91134</p>
-        <p><strong>Email:</strong> sales@vinayakagas.com</p>
+<p><strong>Phone:</strong> +91 99664 91134<br>
+<strong>Email:</strong> sales@vinayakagas.com</p>
 
-        <form>
-            <input type="text" placeholder="Your Name" required>
-            <input type="email" placeholder="Your Email" required>
-            <textarea rows="4" placeholder="Your Enquiry"></textarea>
-            <button type="submit">Send Enquiry</button>
-        </form>
-    </div>
+<form>
+<input type="text" placeholder="Your Name" required>
+<input type="email" placeholder="Your Email" required>
+<textarea rows="4" placeholder="Your Requirement"></textarea>
+<button type="submit">Send Enquiry</button>
+</form>
+</div>
 </section>
+
+</div>
 
 <footer>
-    © 2026 Vinayaka Gas | All Rights Reserved
+© 2026 Vinayaka Gas. All Rights Reserved.
 </footer>
 
 <a class="whatsapp" href="https://wa.me/919966491134" target="_blank">
-    WhatsApp Us
+WhatsApp Us
 </a>
 
 </body>
