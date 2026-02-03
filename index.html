@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <title>Vinayaka Gas</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <style>
     body {
       font-family: Arial, Helvetica, sans-serif;
@@ -13,32 +14,39 @@
       line-height: 1.6;
       background: #ffffff;
     }
+
     header {
       background: #0b2c3d;
       color: #ffffff;
-      padding: 40px 20px;
       text-align: center;
+      padding: 40px 20px;
     }
+
     header img {
       max-width: 140px;
       margin-bottom: 15px;
     }
+
     section {
-      padding: 40px 20px;
       max-width: 1000px;
       margin: auto;
+      padding: 40px 20px;
     }
+
     h2 {
       color: #0b2c3d;
       margin-bottom: 10px;
     }
+
     ul {
       padding-left: 20px;
     }
+
     a {
       color: #0b2c3d;
       text-decoration: none;
     }
+
     footer {
       background: #f2f2f2;
       text-align: center;
@@ -46,12 +54,56 @@
       font-size: 14px;
       margin-top: 40px;
     }
+
+    /* Contact Form */
+    form {
+      max-width: 600px;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 14px;
+    }
+
+    button {
+      background: #0b2c3d;
+      color: #fff;
+      border: none;
+      padding: 12px 20px;
+      font-size: 14px;
+      cursor: pointer;
+      border-radius: 4px;
+    }
+
+    button:hover {
+      background: #09425c;
+    }
+
+    /* WhatsApp Button */
+    .whatsapp {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #25D366;
+      color: #fff;
+      padding: 12px 18px;
+      border-radius: 50px;
+      font-size: 14px;
+      text-decoration: none;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    }
   </style>
 </head>
+
 <body>
 
 <header>
-  <img src="logo.png" alt="Vinayaka Gas Logo">
+  <img src="/logo.png" alt="Vinayaka Gas Logo">
   <h1>Vinayaka Gas</h1>
   <p>High Purity, Specialty & Calibration Gas Solutions</p>
   <p style="font-size:14px; margin-top:10px;">
@@ -63,6 +115,76 @@
 <section>
   <h2>About Us</h2>
   <p>
-    Vinayaka Gas is a manufacturer and supplier of high-purity, specialty and
-    calibration gases for industrial, laboratory and analytical applications.
-    We focus on purity consistency, techni
+    Vinayaka Gas is a manufacturer and supplier of high-purity, specialty and calibration
+    gases for industrial, laboratory and analytical applications. We focus on delivering
+    reliable gas solutions that meet stringent purity, accuracy and safety requirements.
+  </p>
+  <p>
+    Our expertise includes precision calibration gas mixtures such as Methane, Ethylene,
+    Carbon Monoxide, Iso-Butylene, Tri-Gas mixtures and P-10 gas, along with ultra-high
+    purity Grade-6 gases including Nitrogen, Helium and Argon.
+  </p>
+  <p>
+    Vinayaka Gas supports laboratories, research institutions and industries by providing
+    technically accurate gas solutions with consistent quality and dependable supply.
+  </p>
+</section>
+
+<section>
+  <h2>Mission & Vision</h2>
+  <p><strong>Our Mission:</strong>  
+    To supply high-quality, technically precise and safe gas solutions that support
+    critical industrial and analytical processes.
+  </p>
+  <p><strong>Our Vision:</strong>  
+    To become a trusted supplier of high-purity and calibration gases by maintaining
+    consistent quality, technical excellence and long-term customer relationships.
+  </p>
+</section>
+
+<section>
+  <h2>What We Provide / Services</h2>
+  <ul>
+    <li>Manufacturing and supply of calibration gas mixtures</li>
+    <li>Ultra-high purity Grade-6 gases</li>
+    <li>Specialty and industrial gas supply</li>
+    <li>Support for laboratory and analytical applications</li>
+    <li>Safe cylinder handling and reliable delivery</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Products & Gases</h2>
+  <ul>
+    <li>Calibration Gases: Methane, Ethylene, Carbon Monoxide, Iso-Butylene, Tri-Gas, P-10</li>
+    <li>Ultra High Purity Gases: Nitrogen Grade-6, Helium Grade-6, Argon Grade-6</li>
+    <li>Pure Gases, Specialty Gases, Refrigeration Gases, Shielding Gases</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Contact Us</h2>
+
+  <form action="mailto:sales@vinayakagas.com" method="post" enctype="text/plain">
+    <input type="text" name="Name" placeholder="Your Name" required>
+    <input type="email" name="Email" placeholder="Your Email" required>
+    <input type="text" name="Phone" placeholder="Your Phone Number">
+    <textarea name="Message" rows="4" placeholder="Your Requirement"></textarea>
+    <button type="submit">Send Enquiry</button>
+  </form>
+
+</section>
+
+<footer>
+  © Vinayaka Gas. All Rights Reserved.
+</footer>
+
+<!-- WhatsApp Button -->
+<a class="whatsapp"
+   href="https://wa.me/919966491134?text=Hello%20I%20am%20enquiring%20about%20gas%20supply"
+   target="_blank">
+  💬 WhatsApp
+</a>
+
+</body>
+</html>
