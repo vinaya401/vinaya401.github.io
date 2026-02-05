@@ -6,122 +6,114 @@
 <title>Vinayaka Gas | Industrial & Special Gas Supplier</title>
 
 <style>
-body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-  color: #222;
-  background: #ffffff;
-  line-height: 1.6;
+body{
+  margin:0;
+  font-family:Arial,Helvetica,sans-serif;
+  color:#222;
+  line-height:1.5;
 }
 
-header {
-  background: #0f2a3d;
-  color: #ffffff;
-  text-align: center;
-  padding: 40px 20px;
+/* HEADER */
+header{
+  background:#0f2a3d;
+  color:#fff;
+  text-align:center;
+  padding:25px 15px;
+}
+header img{
+  width:80px;
+  margin-bottom:8px;
+}
+header h1{
+  margin:5px 0;
+  font-size:28px;
+}
+header p{
+  margin:4px 0;
+  font-size:14px;
 }
 
-header img {
-  width: 90px;
-  margin-bottom: 15px;
+/* SECTIONS */
+section{
+  padding:25px 10%;
+}
+h2{
+  color:#0f2a3d;
+  margin-bottom:8px;
+}
+h3{
+  color:#0f2a3d;
+  margin-top:12px;
 }
 
-header h1 {
-  margin: 10px 0;
-  letter-spacing: 1px;
+/* BOXES */
+.why-box,
+.card{
+  background:#f5f7f9;
+  padding:15px;
+  border-radius:5px;
 }
 
-header p {
-  font-size: 16px;
-  opacity: 0.9;
+/* GRID */
+.products{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+  gap:15px;
 }
 
-section {
-  padding: 35px 12%;
+/* LIST */
+ul{
+  padding-left:18px;
+}
+li{
+  margin-bottom:4px;
 }
 
-h2 {
-  color: #0f2a3d;
-  border-bottom: 2px solid #e5e5e5;
-  padding-bottom: 8px;
+/* CONTACT */
+.contact-box{
+  background:#0f2a3d;
+  color:#fff;
+  padding:20px;
+  border-radius:5px;
 }
-
-h3 {
-  color: #0f2a3d;
-  margin-top: 25px;
-}
-
-ul {
-  padding-left: 18px;
-}
-
-li {
-  margin-bottom: 6px;
-}
-
-.why-box {
-  background: #f5f7f9;
-  padding: 20px;
-  border-radius: 6px;
-}
-
-.products {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 20px;
-}
-
-.card {
-  background: #f8f9fb;
-  padding: 20px;
-  border-radius: 6px;
-  border: 1px solid #e1e1e1;
-}
-
-.contact-box {
-  background: #0f2a3d;
-  color: #fff;
-  padding: 30px;
-  border-radius: 6px;
-}
-
 .contact-box input,
-.contact-box textarea {
-  width: 100%;
-  padding: 10px;
-  margin-top: 10px;
-  border-radius: 4px;
-  border: none;
+.contact-box textarea{
+  width:100%;
+  padding:8px;
+  margin-top:8px;
+  border:none;
+  border-radius:4px;
+}
+.contact-box button{
+  margin-top:10px;
+  width:100%;
+  padding:10px;
+  background:#25d366;
+  color:#fff;
+  border:none;
+  font-size:15px;
+  cursor:pointer;
 }
 
-.contact-box button {
-  margin-top: 15px;
-  padding: 12px;
-  width: 100%;
-  background: #25d366;
-  color: #fff;
-  border: none;
-  font-size: 16px;
-  cursor: pointer;
+/* WHATSAPP */
+.whatsapp{
+  position:fixed;
+  bottom:15px;
+  right:15px;
+  background:#25d366;
+  color:#fff;
+  padding:10px 14px;
+  border-radius:30px;
+  text-decoration:none;
+  font-weight:bold;
 }
 
-footer {
-  background: #f1f1f1;
-  text-align: center;
-  padding: 15px;
-  font-size: 14px;
-}
-
-.whatsapp {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  background: #25d366;
-  color: white;
-  padding: 12px 18px;
-  border-radius: 30px;
-  text-decoration: none;
-  font-weight: bold;
+/* FOOTER */
+footer{
+  background:#f1f1f1;
+  text-align:center;
+  padding:10px;
+  font-size:13px;
 }
 </style>
 </head>
@@ -129,122 +121,117 @@ footer {
 <body>
 
 <header>
-  <!-- LOGO -->
   <img src="logo.png" alt="Vinayaka Gas Logo">
   <h1>VINAYAKA GAS</h1>
   <p>Reliable Industrial, Medical & Special Gas Solutions</p>
-  <p>Pure gases • Special gases • Refrigeration gases</p>
 </header>
 
 <section>
-  <h2>Why Choose Vinayaka Gas</h2>
-  <div class="why-box">
-    <ul>
-      <li>Certified & high-purity gases</li>
-      <li>Safe industrial cylinder handling</li>
-      <li>Timely and reliable delivery</li>
-      <li>Competitive pricing</li>
-    </ul>
-  </div>
+<h2>Why Choose Vinayaka Gas</h2>
+<div class="why-box">
+<ul>
+<li>Certified & high-purity gases</li>
+<li>Safe industrial cylinder handling</li>
+<li>Timely and reliable delivery</li>
+<li>Competitive pricing</li>
+</ul>
+</div>
 </section>
 
 <section>
-  <h2>About Vinayaka Gas</h2>
-  <p>
-    Vinayaka Gas is a trusted manufacturer and supplier of industrial, medical and special gases,
-    serving laboratories, hospitals, fabrication units and industrial customers.
-    We focus on consistent purity, strict safety standards and dependable supply.
-  </p>
-  <p>
-    Located in Chittoor, Andhra Pradesh, we support critical applications across manufacturing,
-    healthcare, research and refrigeration industries.
-  </p>
+<h2>About Vinayaka Gas</h2>
+<p>
+Vinayaka Gas is a trusted manufacturer and supplier of industrial, medical and special gases,
+serving laboratories, hospitals and industrial customers with strict safety and purity standards.
+</p>
 </section>
 
 <section>
-  <h2>Products & Services</h2>
+<h2>Products & Services</h2>
 
-  <div class="products">
+<div class="products">
 
-    <div class="card">
-      <h3>Pure Gases</h3>
-      <ul>
-        <li>Argon</li>
-        <li>Nitrogen</li>
-        <li>Oxygen</li>
-        <li>Carbon Dioxide</li>
-        <li>Hydrogen</li>
-        <li>Helium</li>
-        <li>Dissolved Acetylene</li>
-      </ul>
-    </div>
+<div class="card">
+<h3>Pure Gases</h3>
+<ul>
+<li>Argon</li>
+<li>Nitrogen</li>
+<li>Oxygen</li>
+<li>Carbon Dioxide</li>
+<li>Hydrogen</li>
+<li>Helium</li>
+<li>Dissolved Acetylene</li>
+</ul>
+</div>
 
-    <div class="card">
-      <h3>Pure Special Gases</h3>
-      <ul>
-        <li>Sulfur Hexafluoride (SF₆)</li>
-        <li>Anhydrous Hydrogen Chloride</li>
-        <li>Carbon Monoxide</li>
-        <li>Nitric Oxide</li>
-        <li>Sulphur Dioxide</li>
-        <li>Hydrogen Sulphide</li>
-        <li>Argon – 6.0 Grade (99.999%)</li>
-        <li>Nitrogen – 6.0 Grade (99.999%)</li>
-        <li>Helium – 6.0 Grade</li>
-      </ul>
-    </div>
+<div class="card">
+<h3>Pure Special Gases</h3>
+<ul>
+<li>Sulfur Hexafluoride (SF₆)</li>
+<li>Anhydrous Hydrogen Chloride</li>
+<li>Carbon Monoxide</li>
+<li>Nitric Oxide</li>
+<li>Sulphur Dioxide</li>
+<li>Hydrogen Sulphide</li>
+<li>Argon – 6.0 Grade (99.999%)</li>
+<li>Nitrogen – 6.0 Grade (99.999%)</li>
+<li>Helium – 6.0 Grade</li>
+</ul>
+</div>
 
-    <div class="card">
-      <h3>Refrigeration Gases</h3>
-      <ul>
-        <li>R404A</li>
-        <li>R407C</li>
-        <li>R32</li>
-        <li>R22</li>
-        <li>R410A</li>
-        <li>R1234ZE</li>
-        <li>R513A</li>
-        <li>R134A</li>
-      </ul>
-    </div>
+<div class="card">
+<h3>Refrigeration Gases</h3>
+<ul>
+<li>R404A</li>
+<li>R407C</li>
+<li>R32</li>
+<li>R22</li>
+<li>R410A</li>
+<li>R1234ZE</li>
+<li>R513A</li>
+<li>R134A</li>
+</ul>
+</div>
 
-    <div class="card">
-      <h3>Applications</h3>
-      <ul>
-        <li>Welding & fabrication</li>
-        <li>Medical & healthcare</li>
-        <li>Laboratories & research</li>
-        <li>Refrigeration & HVAC</li>
-        <li>Industrial manufacturing</li>
-        <li>Power & electrical applications</li>
-      </ul>
-    </div>
+<div class="card">
+<h3>Applications</h3>
+<ul>
+<li>Welding & Fabrication</li>
+<li>Medical & Healthcare</li>
+<li>Laboratories</li>
+<li>Refrigeration & HVAC</li>
+<li>Industrial Manufacturing</li>
+</ul>
+</div>
 
-  </div>
+</div>
 </section>
 
 <section>
-  <h2>Contact & Enquiry</h2>
-  <div class="contact-box">
-    <p><strong>📍 Address:</strong> Iravaram By-pass Road, Chittoor, Andhra Pradesh</p>
-    <p><strong>📞 Phone:</strong> +91 99664 91134</p>
-    <p><strong>📧 Email:</strong> sales@vinayakagas.com</p>
+<h2>Contact & Enquiry</h2>
 
-    <form>
-      <input type="text" placeholder="Your Name" required>
-      <input type="email" placeholder="Your Email" required>
-      <textarea rows="4" placeholder="Your Enquiry"></textarea>
-      <button type="submit">Send Enquiry</button>
-    </form>
-  </div>
+<div class="contact-box">
+<p><b>📍 Address:</b> Iravaram By-pass Road, Chittoor, Andhra Pradesh</p>
+<p><b>📞 Phone:</b> +91 99664 91134</p>
+<p><b>📧 Email:</b> sales@vinayakagas.com</p>
+
+<!-- WORKING FORM -->
+<form action="mailto:sales@vinayakagas.com" method="post" enctype="text/plain">
+<input type="text" name="Name" placeholder="Your Name" required>
+<input type="email" name="Email" placeholder="Your Email" required>
+<textarea name="Message" rows="3" placeholder="Your Enquiry"></textarea>
+<button type="submit">Send Enquiry</button>
+</form>
+
+</div>
 </section>
 
 <a class="whatsapp" href="https://wa.me/919966491134" target="_blank">
-  WhatsApp Us
+WhatsApp
 </a>
 
 <footer>
-  © 2026 Vinayaka Gas. All rights reserved.
+© 2026 Vinayaka Gas
 </footer>
 
 </body>
