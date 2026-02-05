@@ -2,130 +2,126 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Vinayaka Gas | Industrial, Medical & Special Gases</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vinayaka Gas | Industrial & Special Gas Supplier</title>
 
 <style>
-body{
-  margin:0;
+body {
+  margin: 0;
   font-family: Arial, Helvetica, sans-serif;
-  background:#f5f5f5;
-  color:#222;
+  color: #222;
+  background: #ffffff;
+  line-height: 1.6;
 }
 
-/* COLORS */
-:root{
-  --primary:#0f2d3d;
-  --secondary:#5f6b73;
+header {
+  background: #0f2a3d;
+  color: #ffffff;
+  text-align: center;
+  padding: 40px 20px;
 }
 
-/* HEADER */
-header{
-  background:var(--primary);
-  color:#fff;
-  text-align:center;
-  padding:30px 15px;
+header img {
+  width: 90px;
+  margin-bottom: 15px;
 }
 
-.logo{
-  height:110px;
-  margin-bottom:10px;
+header h1 {
+  margin: 10px 0;
+  letter-spacing: 1px;
 }
 
-header h1{
-  margin:10px 0 5px;
-  font-size:36px;
-  letter-spacing:1px;
+header p {
+  font-size: 16px;
+  opacity: 0.9;
 }
 
-header p{
-  margin:5px 0;
-  font-size:16px;
-  color:#d6d6d6;
+section {
+  padding: 35px 12%;
 }
 
-/* SECTIONS */
-section{
-  background:#fff;
-  margin:18px auto;
-  max-width:1100px;
-  padding:25px;
-  border-radius:6px;
+h2 {
+  color: #0f2a3d;
+  border-bottom: 2px solid #e5e5e5;
+  padding-bottom: 8px;
 }
 
-h2{
-  color:var(--primary);
-  margin-bottom:12px;
+h3 {
+  color: #0f2a3d;
+  margin-top: 25px;
 }
 
-ul{
-  padding-left:18px;
+ul {
+  padding-left: 18px;
 }
 
-li{
-  margin-bottom:6px;
+li {
+  margin-bottom: 6px;
 }
 
-/* PRODUCTS GRID */
-.products{
-  display:grid;
-  grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
-  gap:18px;
+.why-box {
+  background: #f5f7f9;
+  padding: 20px;
+  border-radius: 6px;
 }
 
-.card{
-  background:#f9f9f9;
-  padding:15px;
-  border-left:4px solid var(--primary);
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
 }
 
-/* CONTACT */
-.contact-box{
-  display:grid;
-  grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
-  gap:20px;
+.card {
+  background: #f8f9fb;
+  padding: 20px;
+  border-radius: 6px;
+  border: 1px solid #e1e1e1;
 }
 
-input, textarea{
-  width:100%;
-  padding:10px;
-  margin-bottom:10px;
-  border:1px solid #ccc;
-  border-radius:4px;
+.contact-box {
+  background: #0f2a3d;
+  color: #fff;
+  padding: 30px;
+  border-radius: 6px;
 }
 
-button{
-  background:var(--primary);
-  color:#fff;
-  padding:10px 18px;
-  border:none;
-  border-radius:4px;
-  cursor:pointer;
+.contact-box input,
+.contact-box textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 4px;
+  border: none;
 }
 
-button:hover{
-  background:#123c52;
+.contact-box button {
+  margin-top: 15px;
+  padding: 12px;
+  width: 100%;
+  background: #25d366;
+  color: #fff;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
 }
 
-/* FOOTER */
-footer{
-  background:#eaeaea;
-  text-align:center;
-  padding:15px;
-  font-size:14px;
+footer {
+  background: #f1f1f1;
+  text-align: center;
+  padding: 15px;
+  font-size: 14px;
 }
 
-/* WHATSAPP BUTTON */
-.whatsapp{
-  position:fixed;
-  right:20px;
-  bottom:20px;
-  background:#25d366;
-  color:#fff;
-  padding:12px 18px;
-  border-radius:30px;
-  text-decoration:none;
-  font-weight:bold;
+.whatsapp {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #25d366;
+  color: white;
+  padding: 12px 18px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
 }
 </style>
 </head>
@@ -133,7 +129,8 @@ footer{
 <body>
 
 <header>
-  <img src="logo-industrial.png" alt="Vinayaka Gas Logo" class="logo">
+  <!-- LOGO -->
+  <img src="logo.png" alt="Vinayaka Gas Logo">
   <h1>VINAYAKA GAS</h1>
   <p>Reliable Industrial, Medical & Special Gas Solutions</p>
   <p>Pure gases • Special gases • Refrigeration gases</p>
@@ -141,31 +138,32 @@ footer{
 
 <section>
   <h2>Why Choose Vinayaka Gas</h2>
-  <ul>
-    <li>Certified & high-purity gases</li>
-    <li>Safe industrial cylinder handling</li>
-    <li>Timely and reliable delivery</li>
-    <li>Competitive and transparent pricing</li>
-  </ul>
+  <div class="why-box">
+    <ul>
+      <li>Certified & high-purity gases</li>
+      <li>Safe industrial cylinder handling</li>
+      <li>Timely and reliable delivery</li>
+      <li>Competitive pricing</li>
+    </ul>
+  </div>
 </section>
 
 <section>
   <h2>About Vinayaka Gas</h2>
   <p>
-    Vinayaka Gas is a trusted manufacturer and supplier of industrial, medical and
-    special gases catering to laboratories, healthcare institutions and industrial
-    customers. We focus on delivering consistent gas purity with strict safety
-    standards and dependable service.
+    Vinayaka Gas is a trusted manufacturer and supplier of industrial, medical and special gases,
+    serving laboratories, hospitals, fabrication units and industrial customers.
+    We focus on consistent purity, strict safety standards and dependable supply.
   </p>
   <p>
-    Based in Chittoor, Andhra Pradesh, Vinayaka Gas supports critical applications
-    across welding, healthcare, refrigeration and analytical industries with
-    customer-focused solutions.
+    Located in Chittoor, Andhra Pradesh, we support critical applications across manufacturing,
+    healthcare, research and refrigeration industries.
   </p>
 </section>
 
 <section>
   <h2>Products & Services</h2>
+
   <div class="products">
 
     <div class="card">
@@ -190,72 +188,64 @@ footer{
         <li>Nitric Oxide</li>
         <li>Sulphur Dioxide</li>
         <li>Hydrogen Sulphide</li>
+        <li>Argon – 6.0 Grade (99.9999%)</li>
+        <li>Nitrogen – 6.0 Grade (99.9999%)</li>
+        <li>Helium – 6.0 Grade</li>
       </ul>
     </div>
 
     <div class="card">
       <h3>Refrigeration Gases</h3>
       <ul>
-        <li>Industrial refrigeration gases</li>
-        <li>Commercial HVAC gases</li>
+        <li>R404A</li>
+        <li>R407C</li>
+        <li>R32</li>
+        <li>R22</li>
+        <li>R410A</li>
+        <li>R1234ZE</li>
+        <li>R513A</li>
+        <li>R134A</li>
       </ul>
     </div>
 
     <div class="card">
-      <h3>Shielding Gases</h3>
+      <h3>Applications</h3>
       <ul>
-        <li>Argon</li>
-        <li>Argon–Carbon Dioxide mixtures</li>
-        <li>Welding & fabrication gases</li>
+        <li>Welding & fabrication</li>
+        <li>Medical & healthcare</li>
+        <li>Laboratories & research</li>
+        <li>Refrigeration & HVAC</li>
+        <li>Industrial manufacturing</li>
+        <li>Power & electrical applications</li>
       </ul>
     </div>
 
   </div>
-</section>
-
-<section>
-  <h2>Applications</h2>
-  <ul>
-    <li>Welding & fabrication</li>
-    <li>Medical & healthcare</li>
-    <li>Laboratories & research</li>
-    <li>Refrigeration & air-conditioning</li>
-    <li>Industrial manufacturing</li>
-    <li>Power & electrical applications</li>
-  </ul>
 </section>
 
 <section>
   <h2>Contact & Enquiry</h2>
   <div class="contact-box">
-
-    <div>
-      <p><strong>Address:</strong><br>
-      Iravaram Bypass Road, No.250,<br>
-      Iravaram, Chittoor,<br>
-      Andhra Pradesh – 517001</p>
-
-      <p><strong>Phone:</strong> +91 99664 91134</p>
-      <p><strong>Email:</strong> sales@vinayakagas.com</p>
-    </div>
+    <p><strong>📍 Address:</strong> Iravaram By-pass Road, Chittoor, Andhra Pradesh</p>
+    <p><strong>📞 Phone:</strong> +91 99664 91134</p>
+    <p><strong>📧 Email:</strong> sales@vinayakagas.com</p>
 
     <form>
-      <input type="text" placeholder="Your Name">
-      <input type="email" placeholder="Your Email">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
       <textarea rows="4" placeholder="Your Enquiry"></textarea>
       <button type="submit">Send Enquiry</button>
     </form>
-
   </div>
 </section>
-
-<footer>
-  © 2026 Vinayaka Gas. All rights reserved.
-</footer>
 
 <a class="whatsapp" href="https://wa.me/919966491134" target="_blank">
   WhatsApp Us
 </a>
+
+<footer>
+  © 2026 Vinayaka Gas. All rights reserved.
+</footer>
 
 </body>
 </html>
